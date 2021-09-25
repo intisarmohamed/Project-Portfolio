@@ -68,11 +68,12 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 }
-.Projectscard {
-  border: 1px solid black;
+.ProjectCards {
+  border: 1px solid grey;
   width: 28rem;
   margin: 2rem;
   position: relative;
+  justify-content: space-between;
 }
 
 .Projectscard p {
