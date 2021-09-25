@@ -40,3 +40,10 @@ nav {
 .nav-link a:hover {
   color: 2b2d42;
 }
+.Profile-img {
+  width: 1 rem;
+  height: 1 rem;
+}
+.Profile-img:hover {
+  border: 0.1rem solid white;
+}
