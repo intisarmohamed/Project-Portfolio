@@ -7,9 +7,9 @@ body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1;
-  color: 4a4e69;
   font-size: 12px;
-  background-color: 22223b;
+  color: #c2c1a5;
+  background-color: #596869;
 }
 /*This targets the nav bar,and makes it responsive*/
 header {
@@ -18,7 +18,7 @@ header {
   z-index: 2;
   width: 100%;
   height: 6.8rem;
-  background-color: 22223b;
+  background-color: #515751;
 }
 nav {
   display: flex;
