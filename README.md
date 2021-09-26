@@ -2,6 +2,8 @@
 
 ## Link to Deployed Site
 
+https://intisarmohamed.github.io/Project-Portfolio/
+
 ## Overview
 
 Portfolio showcasing my projects and skills gained.
