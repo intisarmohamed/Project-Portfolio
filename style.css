@@ -66,6 +66,20 @@ nav {
   flex-wrap: wrap;
   justify-content: center;
 }
+.Bigproject {
+  height: 20rem;
+  background-image: url(./Assets/project.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border: 1px solid grey;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+}
+.Bigproject p {
+  bottom: 0;
+}
 
 .ProjectCards {
   border: 1px solid grey;
@@ -73,12 +87,6 @@ nav {
   margin: 2rem;
   position: relative;
   justify-content: space-between;
-}
-.ProjectCards:hover {
-  animation: grow 0.5s ease-out;
-  cursor: pointer;
-  transform: scale (1.4);
-  z-index: 2;
 }
 
 .ProjectCards p {
