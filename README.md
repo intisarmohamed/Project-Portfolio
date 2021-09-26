@@ -22,6 +22,8 @@ Portfolio showcasing my projects and skills gained.
 
 ## Screenshots
 
+![Alt text](/Assets/screencapture-intisarmohamed-github-io-Project-Portfolio-2021-09-26-19_49_42.png)
+
 ![Alt text](/Assets/screencapture-github-intisarmohamed-Project-Portfolio-blob-dev-index-html-2021-09-26-12_10_49.png)
 
 ![Alt text](/Assets/screencapture-github-intisarmohamed-Project-Portfolio-blob-dev-Assets-style-css-2021-09-26-12_11_38.png)
