@@ -42,7 +42,7 @@ nav {
   color: 2b2d42;
 }
 
-.float {
+#float {
   top: 10px;
   display: flex;
   margin: 20px;
@@ -54,22 +54,19 @@ nav {
   float: left;
 }
 
-.Profile-img:hover {
-  border: 0.1rem solid white;
-}
-
 .Bio {
   width: 50%;
   padding: 20px;
   font-size: 1.3rem;
 }
 
-.Projects {
+#Projects {
   display: flex;
   -ms-flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
+
 .ProjectCards {
   border: 1px solid grey;
   width: 28rem;
@@ -90,4 +87,13 @@ nav {
   padding: 0.8rem;
   font-size: 1.2rem;
   font-weight: 500;
+}
+footer {
+  padding: 40px 0;
+  color: #4b4c4d;
+  font-size: 24px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
 }
