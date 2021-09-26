@@ -1,21 +1,24 @@
+/*Universal selector this is applied to whole application*/
 * {
   box-sizing: border-box;
 }
+/*styling for the body tag*/
 body {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   line-height: 1;
-  color: F8F9FA;
+  color: 4a4e69;
   font-size: 12px;
-  background-color: 495057;
+  background-color: 22223b;
 }
+/*This targets the nav bar,and makes it responsive*/
 header {
   top: 0;
   position: flex;
   z-index: 2;
   width: 100%;
   height: 6.8rem;
-  background-color: grey;
+  background-color: 22223b;
 }
 nav {
   display: flex;
@@ -37,11 +40,11 @@ nav {
   color: e9ecef;
   font-size: 1.4rem;
 }
-
+/*when the nav link is hovered over it changes colour*/
 .nav-link a:hover {
   color: 2b2d42;
 }
-
+/* makes div to display image and text side by side*/
 #float {
   top: 10px;
   display: flex;
@@ -60,26 +63,30 @@ nav {
   font-size: 1.3rem;
 }
 
+/* styling for main project so that it spans across page*/
+
 #Projects {
   display: flex;
   -ms-flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
 }
-.Bigproject {
+
+#background {
   height: 20rem;
-  background-image: url(./Assets/project.jpg);
-  background-position: center;
-  background-size: cover;
-  position: relative;
-  border: 1px solid grey;
-  justify-content: center;
-  flex-wrap: wrap;
+  width: 100%;
+}
+
+.Main {
+  width: 100%;
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+#float-p {
   align-content: center;
 }
-.Bigproject p {
-  bottom: 0;
-}
+/*styling for project cards and ensured that it's responsive*/
 
 .ProjectCards {
   border: 1px solid grey;
@@ -96,12 +103,13 @@ nav {
   font-size: 1.2rem;
   font-weight: 500;
 }
+/*styling for footer*/
 footer {
   padding: 40px 0;
   color: #4b4c4d;
   font-size: 24px;
   justify-content: center;
 }
-
+/*media queries for responsive webpage*/
 @media screen and (max-width: 768px) {
 }
