@@ -19,7 +19,3 @@ A professional portfolio showcasing my projects and skills gained.Here you can f
 
 -HTML
 -CSS
-
-## Screenshots
-
-![Alt text](Assets/images/home-page-screenshot.jpg)
